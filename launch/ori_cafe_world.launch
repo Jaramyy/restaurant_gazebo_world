@@ -6,7 +6,7 @@
   <arg name="use_sim_time" default="true"/>
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
-  <arg name="debug" default="true"/>
+  <arg name="debug" default="false"/>
 
   <!--env name="GAZEBO_MODEL_PATH" value="$(find freezer_description_sdf):$(optenv GAZEBO_MODEL_PATH)"/-->
 
