@@ -1,0 +1,13 @@
+material 4x4ArucoVisualMarker13/Marker
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 4x4_1000-13.png
+			}
+		}
+	}
+}

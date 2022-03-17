@@ -40,13 +40,11 @@
       </collision>
     </link>
 
-    <!--link name='marker_pad'>
+    <link name='marker_pad'>
       <pose frame='marker'>0 0 -1e-5 0 -0 0</pose>
       <visual name='visual'>
         <geometry>
-          <box>
-            <size>0.1778 0.1778 1e-5</size>
-          </box>
+          <mesh filename="package://mono_bot/meshes/$(arg aruco_id)" scale="3 3 3"/>
         </geometry>
         <material>
           <lighting>1</lighting>
@@ -88,7 +86,7 @@
           <lower>0</lower>
         </limit>
       </axis>
-    </joint!-->
+    </joint>
 
     <static>1</static>
     <allow_auto_disable>1</allow_auto_disable>
